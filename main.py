@@ -23,3 +23,6 @@ def main():
 
     product = list_product(list)
     print("The product is:", product)
+
+    print("List in reversed order is:", list_in_reverse_order(list))
+    
