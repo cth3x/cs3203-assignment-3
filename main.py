@@ -1,9 +1,11 @@
+#This is the sum function
 def list_sum(list):
     total = 0
     for num in list:
         total += num
     return total
 
+#This is the product function
 def list_product(list):
     total = 1
     for num in list:
