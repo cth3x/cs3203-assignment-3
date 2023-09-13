@@ -10,6 +10,9 @@ def list_product(list):
         result *= num
     return total
 
+def list_in_reverse_order(list):
+    list[::-1]
+
 def main():
     user_input = input("Enter a list of numbers separated by commas: ")
     
@@ -20,3 +23,6 @@ def main():
 
     product = list_product(list)
     print("The product is:", product)
+
+    print("List in reversed order is:", list_in_reverse_order(list))
+    
